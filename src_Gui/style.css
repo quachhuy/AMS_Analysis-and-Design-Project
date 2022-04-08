@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(45, 114, 131) ;
+}
+#row-menu{
+    background-color: rgb(45, 114, 131);
+
+}
+#menu{
+    display: flex;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;   
+}
+#nameMenu{
+    padding-left: 20px;
+    word-wrap: none;
+}
+#nameMenu a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#name-list a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    
+}
+#name-list a:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+#name-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+}
+#list{
+    background-color: rgb(45, 114, 131);
+}
+#namestatus{
+    padding-left: 20px;
+    word-wrap: none;
+}
+#namestatus p{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#nameMenu-acc{
+    float: right;
+}
+#nameMenu-acc a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
