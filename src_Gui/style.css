@@ -41,6 +41,7 @@ body{
 }
 #list{
     background-color: rgb(45, 114, 131);
+    width: 100%;
 }
 #namestatus{
     padding-left: 20px;
@@ -58,4 +59,32 @@ body{
     color: white;
     font-size: 18px;
     text-decoration: none;
+}
+#working-space{
+    display: flex;
+    border: 2px solid black;
+
+}
+#a{
+    width: 20%;
+}
+#b{
+    width: 50%;
+}#txt p{
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+    display: flex;
+    justify-content: center;
+
+}
+#list-product{
+    width: 192%;
+    border: 2px solid black;
+    margin: 0;
+    height: 600px;
+}
+#c{
+    display: flex;
+    justify-content: center;
 }
