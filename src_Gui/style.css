@@ -82,9 +82,19 @@ body{
     width: 192%;
     border: 2px solid black;
     margin: 0;
-    height: 600px;
+    height: 550px;
 }
 #c{
     display: flex;
     justify-content: center;
+}
+.btn1{
+    float: right;
+    display: flex;
+}
+.btn1 button{
+    width: 150px
+}
+#btn2{
+    margin-right: 10px;
 }
